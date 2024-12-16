@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Seekers PH</title>
+    <link rel="stylesheet" href="Product_style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="header"> 
+    <div class="container"> 
+        <div class="navbar">
+              <div class="logo">
+                <a href="Index.html"><img src="images/waveseekerslogo.png" width="125px"></a>
+             </div>
+              <nav>
+               <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Account.html">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/Cart.png" width="30px" height="30px">
+        <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+    </div>
+       <hr>
+       <section id="contact">
+        <div class="container2">
+       <div class="header-row">
+          <div class="col-2">
+             <h1>Products</h1>
+            <p>How can we help you?</p>
+             <a href="Index.html" class="btn"> Back to Homepage &#8594;</a>
+          </div>
+            </div>
+            </div>
+        </section>
+       
+    </div>
+    </div>
+    <!-------------Featured Products----------------->
+    <h2 class="title">Featured Products</h2>
+    <div class="small-container1">
+    <div class="row">
+        <div class="col-4">
+            <a href="glasses.html"><img src="images/glasses.png"></a>
+            <h4>Wave Seeker Glasses: Feel the vibe, See the world!</h4>
+            <p>PHP 500.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="tote.html"><img src="images/tote.png"></a>
+            <h4>Wave Seekers tote Bag: Carry the vibe, Anywhere!”</h4>
+            <p>PHP 600.00</p>
+        </div>
+</div>
+</div>
+<div class="small-container2">
+    <div class="row">
+        <div class="col-4">
+            <a href="shirt.html"><img src="images/shirt.png"></a>
+            <h4>Wave Seeker T-Shirt: Wear the Beat!</h4>
+            <p>PHP 850.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="headphones.html"><img src="images/headphone.png"></a>
+            <h4>Soundwave Headphone: Feel the beat, Anywhere!</h4>
+            <p>PHP 1,500.00</p>
+        </div>
+    </div>
+</div>
+
+
+<!----------Footer----------->
+<div class="footer">
+    <div class="container1">
+        <div class="footer-row">
+            <div class="footer-col-2">
+                <img src="images/waveseekerslogo.png">
+                <p>Unleash your Wave to Earth adoration with WAVE SEEKERS merch <br> the ultimate gear for fans who live and breathe the music, energy, and culture of K-pop. </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li><a href="" id="usefulLink">Coupons</a></li>
+                    <li><a href="" id="usefulLink">Return Policy</a></li>
+                    <li><a href="" id="usefulLink">Join us!</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="" id="followUs">Facebook</a></li>
+                    <li><a href="" id="followUs">Instagram</a></li>
+                    <li><a href="" id="followUs">Tiktok</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 - Wave Seekers.</p>
+    </div>
+</div>
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+    
+</script>
+</body>
+</html>

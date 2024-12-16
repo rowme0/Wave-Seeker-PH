@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Seekers PH</title>
+    <link rel="stylesheet" href="Contact_style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="header"> 
+    <div class="container"> 
+        <div class="navbar">
+              <div class="logo">
+                <a href="Index.html"><img src="images/waveseekerslogo.png" width="125px"></a>
+             </div>
+              <nav>
+               <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" onclick="menutoggle()" class="menu-icon">
+    </div>
+       <hr>
+        <div class="banner">
+       <div class="header-row">
+          <div class="col-2">
+             <h1>Contact</h1>
+            <p>How can we help you?</p>
+             <a href="Index.html" class="btn"> Back to Homepage &#8594;</a>
+          </div>
+            </div>
+            </div>
+       
+    </div>
+    </div>
+<div class="article-content">
+   <p> Share your thoughts! We welcome all questions, comments and feedback – it helps us make your experience at Wave Seekers the best it can be. Please select the category below that best fits your comment or question, then e-mail us. We’ll respond as quickly as possible.
+   </p>
+   <h2>Our Products</h2>
+   <p>Please e-mail <a href="mailto:customer@waveseekers.ph" id="email">customer@waveseekers.ph</a> if you have something to ask or say about your experiences with our products.
+   </p>
+   <h2>Our Company</h2>
+   <p>If you would like to find out more about Starbucks as a company, including our corporate social responsibility efforts or investor relations, please e-mail <a href="mailto:marketing@waveseekers.ph" id="email">marketing@waveseekers.ph</a>
+   </p>
+   <h2>Our Website</h2>
+   <p>If you have a technical issue to report or question regarding this web site, then by all means e-mail <a href="mailto:marketing@waveseekers.ph" id="email">marketing@waveseekers.ph</a>
+   </p>
+   <h2>Our Careers</h2>
+   <p>If you would like to be part of the Wave Seekers team, please send your application with your resume at <a href="mailto:careers@waveseekers.ph" id="email">careers@waveseekers.ph</a>
+   </p>
+</div>
+
+
+<!----------Footer----------->
+<div class="footer">
+    <div class="container1">
+        <div class="footer-row">
+            <div class="footer-col-2">
+                <img src="images/waveseekerslogo.png">
+                <p>Unleash your Wave to Earth adoration with WAVE SEEKERS merch <br> the ultimate gear for fans who live and breathe the music, energy, and culture of K-pop. </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li><a href="" id="usefulLink">Coupons</a></li>
+                    <li><a href="" id="usefulLink">Return Policy</a></li>
+                    <li><a href="" id="usefulLink">Join us!</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="" id="followUs">Facebook</a></li>
+                    <li><a href="" id="followUs">Instagram</a></li>
+                    <li><a href="" id="followUs">Tiktok</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 - Wave Seekers.</p>
+    </div>
+</div>
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+    
+</script>
+
+</body>
+</html>
